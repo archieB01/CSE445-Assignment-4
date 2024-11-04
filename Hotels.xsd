@@ -2,7 +2,12 @@
 
 <!-- Hotels.xsd: This schema defines the XML structure for a hotel directory -->
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   targetNamespace="http://venus.sod.asu.edu/WSRepository/xml/"
+		   xmlns="http://venus.sod.asu.edu/WSRepository/xml/"
+		   elementFormDefault="qualified">
 
 	<!-- Root element: Hotels -->
 	<xs:element name="Hotels">
