@@ -2,7 +2,10 @@
 
 <!-- Hotels.xml: A list of hotels with info about address, phone numbers, and ratings -->
 
-<Hotels>
+<Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml/" 
+		xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml/ schema.xsd"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Address NearestAirport="Sky Harbor">
